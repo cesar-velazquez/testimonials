@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-style: normal;
+}
+
+body {
+    min-height: 100vh;
+    background: #fafffd;
+    background: linear-gradient(180deg,
+            rgba(250, 255, 253, 1) 0%,
+            rgba(225, 229, 252, 1) 100%);
+}
+
+.box {
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.box-1 {
+    grid-area: first-item;
+    background: url(../imgs/bg-pattern-quotation.svg) no-repeat right 1.5rem top;
+    background-size: 100px;
+    background-color: violet;
+}
+
+.box-2 {
+    grid-area: second-item;
+}
+
+.box-3 {
+    grid-area: third-item;
+}
+
+.box-4 {
+    grid-area: fourth-item;
+}
+
+.box-5 {
+    grid-area: fifth-item;
+}
+
+.grid-container {
+    display: grid;
+    justify-content: center;
+
+    background-color: aqua;
+    max-width: 1200px;
+    min-height: 600px;
+    margin: auto;
+
+    grid-template-columns: repeat(4, minmax(0, 300px));
+    grid-template-rows: repeat(2, minmax(80px, auto));
+    gap: 2rem;
+    grid-template-areas:
+        "first-item first-item second-item third-item"
+        "fourth-item fifth-item fifth-item third-item";
+
+}
