@@ -24,7 +24,7 @@ body {
     grid-area: first-item;
     background: url(../imgs/bg-pattern-quotation.svg) no-repeat right 3.5rem top .5rem;
     background-size: 100px;
-    background-color: violet;
+    background-color: hsl(263, 55%, 52%);
 }
 
 .box-2 {
@@ -59,4 +59,32 @@ body {
         "first-item first-item second-item third-item"
         "fourth-item fifth-item fifth-item third-item";
 
+}
+
+.nameTestimonial {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.nameTestimonial span {
+    font-size: 0.9rem;
+}
+
+.profile-pic {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid hsl(219, 29%, 14%);
+}
+
+.titleTestimonial {
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.descriptionTestimonial {
+    font-size: 0.9rem;
+    line-height: 1.5;
 }
