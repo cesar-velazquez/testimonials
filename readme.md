@@ -1,6 +1,6 @@
 # 🚀 Tarjeta de vista previa
 
-Como parte de mi ruta de aprendizaje en desarrollo Frontend, he completado este desafío de Frontend Mentor. 
+Como parte de mi ruta de aprendizaje en desarrollo Frontend, he completado este desafío de Frontend Mentor.
 El proyecto se enfoca en el desarrollo moderno de lograr que las páginas web se vean bien en dispositivos de distintos tamaños usando grid
 
 > Vista previa de "Testimonials grid section", este desafío, exclusivamente de HTML y CSS.
@@ -23,7 +23,7 @@ El proyecto se enfoca en el desarrollo moderno de lograr que las páginas web se
    ```
 2. **Url del sitio:**
    ```bash
-   sitio: https://previewcardfront.netlify.app/
+   sitio: https://testimonialsgridfront.netlify.app/
    ```
 
 # socialLink
